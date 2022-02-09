@@ -2,7 +2,7 @@ const express = require('express');
 const request = require('supertest');
 const {
   getCounter, getGauge, getHistogram, getSummary, initPrometheus,
-} = require('./index.js');
+} = require('./index');
 
 const getServer = (options) => {
   const app = express();
